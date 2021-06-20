@@ -10,6 +10,12 @@ const heartSchema = mongoose.Schema({
     location:{
         type:String
     },
+    date:{
+        type:String
+    },
+    time:{
+        type:String
+    }
 })
 
 mongoose.model("HEART",heartSchema)
