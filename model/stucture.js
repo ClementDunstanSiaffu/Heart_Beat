@@ -1,6 +1,9 @@
 const mongoose = require('mongoose')
 
 const heartSchema = mongoose.Schema({
+    id:{
+        type:Number
+    },
     heartbeat:{
         type:Number
     },
